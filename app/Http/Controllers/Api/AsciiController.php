@@ -28,10 +28,6 @@ class AsciiController extends Controller
      */
     private function return_single_value($string)
     {
-        if (strlen($string) > 20) {
-            return $string;
-        } else {
-            return null;
-        }
+        return $string;
     }
 }
