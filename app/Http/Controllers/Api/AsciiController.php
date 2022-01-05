@@ -19,4 +19,15 @@ class AsciiController extends Controller
             ];
         }
     }
+
+    /**
+     * return_single_value
+     *
+     * @param  mixed $string
+     * @return void
+     */
+    private function return_single_value($string)
+    {
+        return $string;
+    }
 }
